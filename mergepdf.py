@@ -11,7 +11,7 @@ files = sorted(
 
 # Append each file to the merger
 for pdf in files:
-    print(f"Adding file: {pdf}")  # Print the name of the file being added
+    print(f"Adding file: {pdf}") 
     with open(os.path.join("clusterfiles", pdf), 'rb') as file:
         merger.append(file)
 
