@@ -16,6 +16,6 @@ for pdf in files:
         merger.append(file)
 
 # Write the merged PDF to a new file
-merger.write("DCN_fullnotes1.pdf")
+merger.write("notes1.pdf")
 merger.close()
 
